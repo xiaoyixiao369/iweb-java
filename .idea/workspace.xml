@@ -2,7 +2,304 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d82176e6-c92b-446c-a768-2fbc68ca61f2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ehcache.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/bean/Constants.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/bean/Page$OrderType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/bean/Page.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/bean/Platform.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/controller/IndexController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/controller/MainController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/controller/error/ErrorMappingController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/controller/sys/BaseController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/controller/sys/SysController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/dao/sys/IGenericDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/dao/sys/IMenuDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/dao/sys/IUserDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/dao/sys/impl/GenericDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/dao/sys/impl/MenuDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/dao/sys/impl/UserDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/dto/RequestPagination$Order.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/dto/RequestPagination.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/entity/sys/Menu.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/entity/sys/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/helper/BisHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/helper/MenuComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/http/JSONResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/http/ResultState.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/interceptor/SessionIntercepter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/interceptor/WebRootInterceptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/resolver/CustomSimpleMappingExceptionResolver.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/service/sys/IGenericService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/service/sys/IMenuService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/service/sys/IUserService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/service/sys/impl/GenericService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/service/sys/impl/MenuService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/service/sys/impl/UserService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/util/PwdUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/io/github/igordonxiao/util/RequestUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/logback.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/spring-hibernate.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/ehcache.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/bean/Constants.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/bean/Page$OrderType.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/bean/Page.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/bean/Platform.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/controller/IndexController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/controller/MainController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/controller/error/ErrorMappingController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/controller/sys/BaseController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/controller/sys/SysController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/dao/sys/IGenericDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/dao/sys/IMenuDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/dao/sys/IUserDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/dao/sys/impl/GenericDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/dao/sys/impl/MenuDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/dao/sys/impl/UserDao.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/dto/RequestPagination$Order.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/dto/RequestPagination.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/entity/sys/Menu.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/entity/sys/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/helper/BisHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/helper/MenuComparator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/http/JSONResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/http/ResultState.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/interceptor/SessionIntercepter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/interceptor/WebRootInterceptor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/resolver/CustomSimpleMappingExceptionResolver.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/service/sys/IGenericService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/service/sys/IMenuService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/service/sys/IUserService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/service/sys/impl/GenericService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/service/sys/impl/MenuService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/service/sys/impl/UserService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/util/PwdUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/io/github/igordonxiao/util/RequestUtil.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/jdbc.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/logback.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/spring-hibernate.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/spring-mvc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/classes/spring.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/jetbrick-template.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/antlr-2.7.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/antlr4-annotations-4.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/antlr4-runtime-4.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/aspectjrt-1.8.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/aspectjweaver-1.8.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/druid-1.0.15.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/ehcache-2.10.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/fastjson-1.2.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/geronimo-jta_1.1_spec-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/hibernate-commons-annotations-5.0.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/hibernate-core-5.0.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/hibernate-entitymanager-5.0.1.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/jandex-1.2.2.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/javassist-3.18.1-GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/jcl-over-slf4j-1.7.12.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/jetbrick-commons-2.0.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/jetbrick-template-2.0.12.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/jetbrick-template-springmvc-2.0.12.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/jetbrick-template-web-2.0.12.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/jsp-api-2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/jstl-api-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/logback-classic-1.1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/logback-core-1.1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/mysql-connector-java-5.1.36.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/org.abego.treelayout.core-1.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/servlet-api-2.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/slf4j-api-1.7.12.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/spring-aop-4.2.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/spring-beans-4.2.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/spring-context-4.2.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/spring-context-support-4.2.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/spring-core-4.2.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/spring-expression-4.2.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/spring-jdbc-4.2.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/spring-orm-4.2.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/spring-tx-4.2.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/spring-web-4.2.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/spring-webmvc-4.2.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/standard-1.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/lib/xml-apis-1.0.b2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/view/error/404.jetx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/view/error/500.jetx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/view/include/env.jetx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/view/include/main-aside-left.jetx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/view/include/main-aside-right.jetx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/view/include/main-content-foot.jetx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/view/include/main-content-head.jetx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/view/include/page-foot.jetx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/view/include/page-head.jetx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/view/index.jetx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/view/login.jetx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/view/main.jetx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/view/mainIndex.jetx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/animate.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/login.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/patterns/header-profile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/awesome-bootstrap-checkbox/awesome-bootstrap-checkbox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/blueimp/css/blueimp-gallery.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/bootstraptable/bootstrap-table.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/chosen/chosen.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/clockpicker/clockpicker.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/codemirror/ambiance.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/codemirror/codemirror.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/colorpicker/css/bootstrap-colorpicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/cropper/cropper.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/dataTables/dataTables.bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/datapicker/datepicker3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/dropzone/basic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/dropzone/dropzone.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/footable/footable.core.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/fullcalendar/fullcalendar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/fullcalendar/fullcalendar.print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/iCheck/custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/ionRangeSlider/ion.rangeSlider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/ionRangeSlider/ion.rangeSlider.skinFlat.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/jasny/jasny-bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/jqgrid/ui.jqgrid.css@0820" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/jsTree/style.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/markdown/bootstrap-markdown.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/morris/morris-0.4.3.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/nouslider/jquery.nouislider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/simditor/simditor.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/steps/jquery.steps.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/summernote/summernote-bs3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/summernote/summernote.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/sweetalert/sweetalert.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/switchery/switchery.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/toastr/toastr.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/treeview/bootstrap-treeview.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/plugins/webuploader/webuploader.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/css/style.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/contabs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/content.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/hplus.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/jquery-2.1.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/jquery-ui-1.10.4.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/jquery-ui.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/beautifyhtml/beautifyhtml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/blueimp/jquery.blueimp-gallery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/bootstraptable/bootstrap-table-zh-CN.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/bootstraptable/bootstrap-table.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/chartJs/Chart.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/chosen/chosen.jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/clockpicker/clockpicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/codemirror/codemirror.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/codemirror/mode/javascript/javascript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/colorpicker/bootstrap-colorpicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/cropper/cropper.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/dataTables/dataTables.bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/dataTables/jquery.dataTables.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/datapicker/bootstrap-datepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/diff_match_patch/diff_match_patch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/dropzone/dropzone.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/easypiechart/jquery.easypiechart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/echarts/echarts-all.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/fancybox/jquery.fancybox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/fancybox/jquery.fancybox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/flot/curvedLines.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/flot/jquery.flot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/flot/jquery.flot.pie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/flot/jquery.flot.resize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/flot/jquery.flot.spline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/flot/jquery.flot.symbol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/flot/jquery.flot.tooltip.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/footable/footable.all.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/fullcalendar/fullcalendar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/gritter/jquery.gritter.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/gritter/jquery.gritter.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/handlebars/handlebars-v4.0.2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/iCheck/icheck.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/ionRangeSlider/ion.rangeSlider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/jasny/jasny-bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/jeditable/jquery.jeditable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/jqgrid/i18n/grid.locale-cn.js@0820" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/jqgrid/jquery.jqGrid.min.js@0820" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/jquery-ui/jquery-ui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/jsKnob/jquery.knob.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/jsTree/jstree.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/layer/extend/layer.ext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/layer/laydate/laydate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/layer/layer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/layer/layim/layim.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/layer/layim/layim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/layer/skin/default/icon-ext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/layer/skin/default/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/layer/skin/default/loading-0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/layer/skin/default/loading-1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/layer/skin/default/loading-2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/layer/skin/layer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/layer/skin/layer.ext.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/layer/skin/moon/default.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/layer/skin/moon/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/markdown/bootstrap-markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/markdown/bootstrap-markdown.zh.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/markdown/markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/markdown/to-markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/metisMenu/jquery.metisMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/morris/morris.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/morris/raphael-2.1.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/nestable/jquery.nestable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/nouslider/jquery.nouislider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/pace/pace.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/peity/jquery.peity.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/preetyTextDiff/jquery.pretty-text-diff.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/prettyfile/bootstrap-prettyfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/rickshaw/rickshaw.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/rickshaw/vendor/d3.v3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/simditor/hotkeys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/simditor/module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/simditor/simditor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/simditor/uploader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/slimscroll/jquery.slimscroll.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/sparkline/jquery.sparkline.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/staps/jquery.steps.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/suggest/bootstrap-suggest.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/summernote/summernote-zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/summernote/summernote.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/sweetalert/sweetalert.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/switchery/switchery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/toastr/toastr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/treeview/bootstrap-treeview.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/validate/jquery.validate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/validate/messages_zh.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/plugins/webuploader/webuploader.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/bootstrap/js/welcome.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/css/normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/js/base64.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/js/jquery-2.1.4.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/lib/js/jquery.cookie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/src/css/compoent.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/src/css/login.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/src/img/avatar/avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/src/img/icon/i/icon-statistics.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/src/img/logo/iweb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/src/img/logo/miao.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/src/img/main-index-bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/src/js/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/src/js/componet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/iweb-java/static/src/js/main.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="iweb-java.iws" />
@@ -36,14 +333,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4029304">
+            <state vertical-scroll-proportion="-5.703704">
               <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.050400916">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -68,18 +375,6 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MenuService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/github/igordonxiao/service/sys/impl/MenuService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -154,6 +449,7 @@
         <option value="$PROJECT_DIR$/dbinit.sql" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/include/main-aside-left.jetx" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -569,16 +865,16 @@
       <option name="number" value="Default" />
       <updated>1447728952093</updated>
       <workItem from="1447728953465" duration="4863000" />
-      <workItem from="1447735064552" duration="777000" />
+      <workItem from="1447735064552" duration="1363000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5640000" />
+    <option name="totallyTimeSpent" value="6226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="993" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -590,7 +886,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -824,8 +1120,16 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4029304">
+        <state vertical-scroll-proportion="-5.703704">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.050400916">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
