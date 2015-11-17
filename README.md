@@ -1,4 +1,5 @@
-## This is a backend web management system, yeah just a seed yet, you have to raise it follow your own business demands.
+##A backend web management system template with Java 8, Spring4, Hibernate5 and more...
+##It's just a seed yet, you have to raise it follow your own business demands.
 
 ###MAIN FRAMEWORKS
 1. Spring4+SpringMVC+Hibernate5
