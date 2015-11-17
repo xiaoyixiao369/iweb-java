@@ -1,0 +1,93 @@
+﻿<!-- 获取环境变量设置 start-->
+#define(Map ENV)
+#include("include/env.jetx", {}, "ENV")
+<!-- 获取环境变量设置 end-->
+<!-- include head start -->
+#include("include/page-head.jetx")
+</head>
+<!-- include head end -->
+
+<body class="gray-bg">
+<div class="middle-box text-center loginscreen animated pulse">
+    <div>
+        <div>
+            <h1 class="logo-name"><img id="imgLogo" class="img-responsive" src="/static/src/img/logo/iweb.png" alt=""/>
+            </h1>
+            <br/>
+        </div>
+        <h2>iweb-java-登录</h2>
+        <small>后台管理系统</small>
+        <form id="loginForm" name="user" class="m-t" role="form" method="post" action="/login" style="display: none;">
+            <div class="form-group">
+                <input type="text" id="userName" name="userName" class="form-control" placeholder="用户名"
+                       required="required" value="">
+            </div>
+            <div class="form-group">
+                <input type="password" id="password" name="password" class="form-control" required="required"
+                       placeholder="密码">
+            </div>
+            <button type="submit" id="btnLogin" class="btn btn-primary block full-width m-b">登 录</button>
+
+            <p class="text-muted text-center"><a href="#">
+            <small>忘记密码了？</small>
+            </a> | <a href="#">注册一个新账号</a>
+            </p>
+
+        </form>
+    </div>
+</div>
+<!-- include foot start -->
+#include("include/page-foot.jetx")
+<script>
+    $(function () {
+        if(top != self){
+            top.window.location.href = "/";
+        }
+        var loginError = '${error}';
+        if (loginError) {
+            toastr['error'](loginError);
+        }
+
+        setTimeout(function () {
+            $('#imgLogo').addClass('animated hinge');
+        }, 500);
+
+        setTimeout(function(){
+            $('#imgLogo').removeClass('animated hinge').addClass('animated lightSpeedIn');
+        }, 2500);
+
+        setTimeout(function () {
+            $('#loginForm').show().addClass('animated flipInY');
+        }, 1200);
+
+        setTimeout(function () {
+            $('#userName').focus();
+        }, 1300);
+
+        $('#btnLogin').on('click', function(){
+            var $userName = $('#userName').val();
+            var $password = $('#password').val();
+            if($.trim($userName) == '') {
+                toastr['error']('用户名不能为空');
+                return false;
+            }
+
+            if($.trim($password) == ''){
+                toastr['error']('密码不能为空');
+                return false;
+            }
+
+            App.post('login', {username: $username, password: $password}, function(resData){
+                if(resData && App.const.SUCCESS === resData.resState){
+                    window.location.href = 'main';
+                } else {
+                    toastr['error'](resData.msg);
+                }
+            })
+
+        });
+    });
+</script>
+</body>
+</html>
+<!-- include foot end -->

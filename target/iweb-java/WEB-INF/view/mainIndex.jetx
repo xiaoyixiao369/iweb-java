@@ -1,0 +1,32 @@
+<!-- 获取环境变量设置 start-->
+#define(Map ENV)
+#include("include/env.jetx", {}, "ENV")
+<!-- 获取环境变量设置 end-->
+<!-- include head start -->
+#include("include/page-head.jetx")
+</head>
+<!-- include head end -->
+
+<body class="gray-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 id="title" class="text-success">iweb-java后台管理系统</h1>
+            </div>
+        </div>
+    </div>
+</body>
+
+<!-- include foot start -->
+#include("include/page-foot.jetx")
+<script>
+    $(function(){
+        setTimeout(function(){
+            $('#title').show().addClass('animated bounceInRight');
+        }, 500);
+
+    });
+</script>
+</body>
+</html>
+<!-- include foot end -->

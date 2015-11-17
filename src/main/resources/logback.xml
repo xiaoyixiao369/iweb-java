@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<configuration>
+    <!-- 输出日志文件到Tomcat的logs文件夹下-->
+    <property name="log.base" value="${TAS_HOME:-..}/logs" />
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>[%d{yyyy-MM-dd HH:mm:ss}] [%-5level] [%F-%M:%L] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="file" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${log.base}/iweb-java.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${log.base}/iweb-java.%d{yyyyMMdd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>[%d{yyyy-MM-dd HH:mm:ss}] [%-5level] [%F-%M:%L] - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root>
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="file" />
+    </root>
+
+    <filter class="ch.qos.logback.classic.filter.LevelFilter">
+        <level>ERROR</level>
+        <onMatch>ACCEPT</onMatch>
+        <onMismatch>DENY</onMismatch>
+    </filter>
+
+    <!-- 测试环境, 第一个配置是显示hibernate参数-->
+    <!--<logger name="org.hibernate.type.descriptor.sql.BasicBinder" level="TRACE"/>-->
+    <!--<logger name="org.springframework" level="debug"/>-->
+    <!--<logger name="org.hibernate" level="debug"/>-->
+    <!--<logger name="io.github.gordonxiao" level="debug"/>-->
+    <!--<logger name="jetx.debug" level="INFO" />-->
+
+    <!-- 线上环境 -->
+    <logger name="org.springframework" level="error"/>
+    <logger name="org.hibernate" level="error"/>
+    <logger name="io.github.gordonxiao" level="error"/>
+    <logger name="jetx.debug" level="error" />
+</configuration>

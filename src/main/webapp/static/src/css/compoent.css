@@ -1,0 +1,4 @@
+/*修复菜单图标宽度*/
+.x-second-level-icon {
+    width: 16px;
+}

@@ -1,0 +1,21 @@
+<!-- 获取环境变量设置 start-->
+#define(Map ENV)
+#include("../include/env.jetx", {}, "ENV")
+<!-- 获取环境变量设置 end-->
+<!-- include head start -->
+#include("../include/page-head.jetx")
+</head>
+<!-- include head end -->
+
+<body class="gray-bg">
+<div class="middle-box text-center animated fadeInDown">
+    <h1>404</h1>
+    <h3 class="font-bold">抱歉,没有找到您要的页面</h3>
+    <br/>
+    <br/>
+    <div class="error-desc">
+        <a type="button" class="btn btn-primary btn-lg" href="/">回到首页</a>
+    </div>
+</div>
+</body>
+</html>
