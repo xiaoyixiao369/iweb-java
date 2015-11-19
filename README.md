@@ -1,4 +1,4 @@
-##A backend web management system template with Java 8, Spring4, Hibernate5 and more...
+##A backend web management system template with Java 8, Spring 4, Hibernate 5 and more...
 ##It's just a seed yet, you have to raise it follow your own business demands.
 
 ###MAIN FRAMEWORKS
@@ -24,7 +24,7 @@
 4. Some Uesful Tools
 
 ###HOW TO
-1. Create database named `iweb-java`;
+1. Create a database named `iweb-java`;
 2. Import sql file `dbinit.sql` to the database;
 3. Modify database username and password in file `jdbc.properties` whitch under directory `src/main/resources`;
 4. Compile(with Maven) & deploy this web project;
